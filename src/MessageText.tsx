@@ -185,7 +185,7 @@ export default class MessageText<
             ...this.props.parsePatterns!(linkStyle as TextStyle),
             { type: 'url', style: linkStyle, onPress: this.onUrlPress },
             { type: 'phone', style: linkStyle, onPress: this.onPhonePress },
-            { type: 'email', style: textStyle},
+            { type: 'email', style: textStyle },
           ]}
           childrenProps={{ ...this.props.textProps }}
         >
